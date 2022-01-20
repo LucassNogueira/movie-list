@@ -6,7 +6,7 @@ const addMovie = (event) => {
   event.preventDefault();
   const inputField = document.querySelector("#input");
   if (!inputField.value) {
-    return alert("Enter a movie title!");
+    return alert("Dont be a dummy, put in a movie title!");
   }
   const movie = document.createElement("li");
   const movieTitle = document.createElement("span");
